@@ -1,0 +1,39 @@
+@font-face{
+    font-family: 'LilitaOne';
+    src: url(LilitaOne-Regular.ttf);
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'LilitaOne';
+    display: flex;
+}
+strong{
+    color: aqua;
+}
+button{
+    background-color: aqua;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px black ;
+}
+section{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(184, 177, 177, 0.404);
+    align-items:center;
+    display: flex;
+    text-align: center;
+    border-radius: 20px;
+    flex-direction: row;
+}
+.texto{
+    width: 50%;
+    height: auto;
+}
+.imagem{
+    width: 467.71px;
+    height: 532px;
+}
